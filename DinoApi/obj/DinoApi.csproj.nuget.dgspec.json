@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -44,6 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +70,14 @@
         }
       }
     },
-    "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj",
         "projectName": "DinoApi",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\DinoApi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\DinoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -80,14 +86,15 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -109,6 +116,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -142,14 +159,14 @@
         }
       }
     },
-    "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -217,14 +234,14 @@
         }
       }
     },
-    "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -239,8 +256,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj"
               }
             }
           }

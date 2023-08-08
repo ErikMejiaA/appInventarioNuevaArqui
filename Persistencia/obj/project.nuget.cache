@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fw7wxkyksL8JmBikBF03VGQxdpIVKDwc/aF7kphKIKfh7KPLqpvUPogxnpK9mFJ8Iogltgom+PcDA6gn6VOZzw==",
+  "dgSpecHash": "ePoSk851nigkcJiUmYhTu+5ZUuhXMXJivZdF2v+vuN6QFzGjifoEy9jU2MypvGiR5NuX0HDos6TbopHgvNXgbw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

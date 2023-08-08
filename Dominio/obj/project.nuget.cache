@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LOOn8iU7VgQ3fzT8JhwFxCh2svbC2H24r/WLhJM5haVzd4FG80FUOg7K47fZf83GaGWJ13sBe4EDDTUjTgUdRg==",
+  "dgSpecHash": "ctAuE2rpCFRZZo7rFs1/u8dOJsNbZwucaa0ycZblio25Hr6lAdFXAcIDX3kwQ2pbvP2ALcLJ/PE10wTbTuiGoQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\appInventarioNuevaArqui\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
